@@ -410,6 +410,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BuenPator-Green-Colorway-icon.ico" />
+    <Content Include="FaithFunds.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\back-arrow35.png" />
     <None Include="Resources\back-arrow34.png" />
     <None Include="Resources\back-arrow33.png" />
