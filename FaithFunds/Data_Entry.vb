@@ -23,10 +23,14 @@ Public Class Data_Entry
     End Sub
 
 
-   
-
     Private Sub btnSave_btn_Click(sender As Object, e As EventArgs) Handles btnSave.Click
         Try
+
+            If IsFieldsNotEmpty() = False Then
+                MsgBox("Save failed. Please fill out the required fields.", MsgBoxStyle.Exclamation)
+                Exit Sub
+            End If
+
             MyCon()
             Dim chapID As String = cbxChapType.Text
 
@@ -282,6 +286,7 @@ Public Class Data_Entry
         Dim dtShow As New DataTable
         dbdaShow.Fill(dtShow)
         gvEntryData.DataSource = dtShow
+        gvEntryData.Select()
     End Sub
 
 
@@ -303,7 +308,7 @@ Public Class Data_Entry
             txtTranTime.Text = dt.Rows(0)("Trans_Time").ToString()
             txtPersonName.Text = dt.Rows(0)("Persons_Name").ToString()
             txtRefTitle.Text = dt.Rows(0)("Ref_Title").ToString()
-            txtAmount.Text = dt.Rows(0)("Amount").ToString()
+            txtAmount.Text = Convert.ToDecimal(dt.Rows(0)("Amount")).ToString("N")
             txtRecNo.Text = dt.Rows(0)("Receipt_Num").ToString()
 
         Catch ex As Exception
@@ -349,6 +354,11 @@ Public Class Data_Entry
 
     Private Sub btnEdit_Click(sender As Object, e As EventArgs) Handles btnEdit.Click
         Try
+            '' validate if there's no record in the gridview
+            If gvEntryData.SelectedRows(0).Cells("ID").Value Is Nothing
+                MsgBox("Edit failed. There's no record to edit.", MsgBoxStyle.Exclamation)
+                Exit Sub
+            End If
 
             If gvEntryData.SelectedRows.Count = 0 Then
                 MsgBox("Please select a record first.", MsgBoxStyle.Exclamation)
@@ -437,9 +447,10 @@ Public Class Data_Entry
         btnEdit.BackColor = Color.FromArgb(58, 73, 32)
         btnEdit.ForeColor = Color.FromArgb(255, 209, 0)
         
-
         ClearFields()
         RecentRec()
+
+
     End Sub
 
     Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
@@ -523,9 +534,22 @@ Public Class Data_Entry
         End If
     End Sub
 
-    Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
+    Private Function IsFieldsNotEmpty() As Boolean
 
-    End Sub
+        If Transaction.Trim() = "" Or _
+                ChapelAbrevation.Trim() = "" Or _
+                txtTranDate.Text.Trim() = "" Or _
+                txtTranTime.Text.Trim() = "" Or _
+                txtPersonName.Text.Trim() = "" Or _
+                txtAmount.Text.Trim() = "" Or _
+                EntryType.Trim() = "" Then 
+            Return False
+        Else
+            Return True
+        End If
+
+
+    End Function
 
 
 End Class

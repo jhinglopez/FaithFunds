@@ -59,7 +59,7 @@ Public Class Home
             MyCon()
 
             ' Fetch the user's role based on their username
-            Dim sql As String = "SELECT URole FROM UserParishAcc WHERE StrComp([UserName], @uname, 0) = 0"
+            Dim sql As String = "SELECT URole FROM UserParishAcc WHERE StrComp([UserName], @uname, 1) = 0"
             Using cmd As New OleDbCommand(sql, dbcon)
                 cmd.Parameters.AddWithValue("@uname", Uname)
                 Dim role As Object = cmd.ExecuteScalar()
