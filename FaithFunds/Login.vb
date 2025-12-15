@@ -40,7 +40,7 @@ Public Class Login
     Private Sub login_btn_Click(sender As Object, e As EventArgs) Handles login_btn.Click
         Try
             MyCon()
-            Dim sql As String = "Select URole  FROM UserParishAcc WHERE StrComp([UserName], @uname, 0) = 0 and StrComp([UserPassword], @upass, 0) = 0 "
+            Dim sql As String = "Select URole  FROM UserParishAcc WHERE StrComp([UserName], @uname, 1) = 0 and StrComp([UserPassword], @upass, 0) = 0 "
             Uname = txtUsername.Text
             Upass = txtUPass.Text
 
@@ -66,7 +66,7 @@ Public Class Login
 
                 If role Is Nothing Then
 
-                    Dim checkUserSql As String = "SELECT COUNT(*) FROM UserParishAcc WHERE StrComp([UserName], @uname, 0) = 0"
+                    Dim checkUserSql As String = "SELECT COUNT(*) FROM UserParishAcc WHERE StrComp([UserName], @uname, 1) = 0"
 
                     Using checker As New OleDbCommand(checkUserSql, dbcon)
                         checker.Parameters.AddWithValue("@uname", Uname)
@@ -86,13 +86,13 @@ Public Class Login
                 Else
                     InsertAuditLog(Uname, "Login success")
 
-                    Select Case role.ToString()
-                        Case "Admin", "CoAdmin", "User"
+                    Select Case role.ToString().ToLower()
+                        Case "admin", "coadmin", "user"
                             MsgBox("Welcome back, " & Uname & "!", MsgBoxStyle.Information)
-                            Me.Hide()
                             txtUPass.Clear()
                             txtUsername.Clear()
-                            Home.ShowDialog()
+                            Home.show()
+                            Me.Close()
                         Case Else
                             MsgBox("Unknown Access Level.", MsgBoxStyle.Critical)
                     End Select

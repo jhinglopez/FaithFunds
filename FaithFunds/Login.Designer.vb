@@ -29,101 +29,109 @@ Partial Class Login
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'txtUsername
         '
         Me.txtUsername.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.txtUsername.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.txtUsername.Location = New System.Drawing.Point(52, 366)
+        Me.txtUsername.Location = New System.Drawing.Point(58, 458)
+        Me.txtUsername.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(387, 38)
+        Me.txtUsername.Size = New System.Drawing.Size(435, 44)
         Me.txtUsername.TabIndex = 0
         '
         'txtUPass
         '
         Me.txtUPass.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.txtUPass.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUPass.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
         Me.txtUPass.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.txtUPass.Location = New System.Drawing.Point(52, 425)
+        Me.txtUPass.Location = New System.Drawing.Point(58, 531)
+        Me.txtUPass.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtUPass.Name = "txtUPass"
-        Me.txtUPass.Size = New System.Drawing.Size(387, 38)
+        Me.txtUPass.Size = New System.Drawing.Size(435, 44)
         Me.txtUPass.TabIndex = 1
-        Me.txtUPass.UseSystemPasswordChar = True
+        Me.txtUPass.UseSystemPasswordChar = true
         '
         'login_btn
         '
         Me.login_btn.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.login_btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(58, Byte), Integer), CType(CType(73, Byte), Integer), CType(CType(32, Byte), Integer))
-        Me.login_btn.Font = New System.Drawing.Font("Garamond", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.login_btn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(209, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.login_btn.Location = New System.Drawing.Point(52, 490)
+        Me.login_btn.BackColor = System.Drawing.Color.FromArgb(CType(CType(58,Byte),Integer), CType(CType(73,Byte),Integer), CType(CType(32,Byte),Integer))
+        Me.login_btn.Font = New System.Drawing.Font("Garamond", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.login_btn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255,Byte),Integer), CType(CType(209,Byte),Integer), CType(CType(0,Byte),Integer))
+        Me.login_btn.Location = New System.Drawing.Point(58, 612)
+        Me.login_btn.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.login_btn.Name = "login_btn"
-        Me.login_btn.Size = New System.Drawing.Size(387, 56)
+        Me.login_btn.Size = New System.Drawing.Size(435, 70)
         Me.login_btn.TabIndex = 2
         Me.login_btn.Text = "Login"
-        Me.login_btn.UseVisualStyleBackColor = False
+        Me.login_btn.UseVisualStyleBackColor = false
         '
         'PictureBox3
         '
         Me.PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = Global.WindowsApplication1.My.Resources.Resources.BuenPator_Green_Colorway
-        Me.PictureBox3.Location = New System.Drawing.Point(36, 36)
+        Me.PictureBox3.Location = New System.Drawing.Point(40, 45)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(420, 391)
+        Me.PictureBox3.Size = New System.Drawing.Size(472, 489)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox3.TabIndex = 5
-        Me.PictureBox3.TabStop = False
+        Me.PictureBox3.TabStop = false
         '
         'Label1
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label1.AutoSize = True
+        Me.Label1.AutoSize = true
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(49, 344)
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label1.Location = New System.Drawing.Point(55, 430)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(71, 19)
+        Me.Label1.Size = New System.Drawing.Size(83, 21)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Username"
         '
         'Label2
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label2.AutoSize = True
+        Me.Label2.AutoSize = true
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(49, 411)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Semibold", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0,Byte))
+        Me.Label2.Location = New System.Drawing.Point(55, 514)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(68, 19)
+        Me.Label2.Size = New System.Drawing.Size(79, 21)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Password"
         '
         'Login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9!, 20!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(484, 622)
+        Me.ClientSize = New System.Drawing.Size(544, 778)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.login_btn)
         Me.Controls.Add(Me.txtUPass)
         Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.PictureBox3)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.MaximizeBox = false
+        Me.MinimizeBox = false
         Me.Name = "Login"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FaithFunds User Account Login"
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        CType(Me.PictureBox3,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
     Friend WithEvents txtUsername As System.Windows.Forms.TextBox
     Friend WithEvents txtUPass As System.Windows.Forms.TextBox
     Friend WithEvents login_btn As System.Windows.Forms.Button
