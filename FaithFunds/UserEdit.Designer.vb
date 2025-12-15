@@ -150,9 +150,9 @@ Partial Class UserEdit
         Me.Label11.ForeColor = System.Drawing.Color.White
         Me.Label11.Location = New System.Drawing.Point(38, 332)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(50, 25)
+        Me.Label11.Size = New System.Drawing.Size(58, 25)
         Me.Label11.TabIndex = 62
-        Me.Label11.Text = "Role"
+        Me.Label11.Text = "Role*"
         '
         'Label12
         '
@@ -189,9 +189,9 @@ Partial Class UserEdit
         Me.Label14.ForeColor = System.Drawing.Color.White
         Me.Label14.Location = New System.Drawing.Point(39, 409)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(97, 25)
+        Me.Label14.Size = New System.Drawing.Size(105, 25)
         Me.Label14.TabIndex = 59
-        Me.Label14.Text = "Full Name"
+        Me.Label14.Text = "Full Name*"
         '
         'Label15
         '
@@ -202,9 +202,9 @@ Partial Class UserEdit
         Me.Label15.ForeColor = System.Drawing.Color.White
         Me.Label15.Location = New System.Drawing.Point(36, 258)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(97, 25)
+        Me.Label15.Size = New System.Drawing.Size(105, 25)
         Me.Label15.TabIndex = 58
-        Me.Label15.Text = "Username"
+        Me.Label15.Text = "Username*"
         '
         'txtConfirmPass
         '

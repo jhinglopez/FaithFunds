@@ -139,9 +139,9 @@ Partial Class Register
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(34, 278)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(87, 19)
+        Me.Label1.Size = New System.Drawing.Size(94, 19)
         Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Username"
+        Me.Label1.Text = "Username*"
         '
         'Label2
         '
@@ -152,9 +152,9 @@ Partial Class Register
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(37, 425)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(88, 19)
+        Me.Label2.Size = New System.Drawing.Size(95, 19)
         Me.Label2.TabIndex = 10
-        Me.Label2.Text = "Full Name"
+        Me.Label2.Text = "Full Name*"
         '
         'Label3
         '
@@ -191,9 +191,9 @@ Partial Class Register
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(34, 349)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 19)
+        Me.Label5.Size = New System.Drawing.Size(49, 19)
         Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Role"
+        Me.Label5.Text = "Role*"
         '
         'Label6
         '
@@ -204,9 +204,9 @@ Partial Class Register
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(35, 581)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(80, 19)
+        Me.Label6.Size = New System.Drawing.Size(87, 19)
         Me.Label6.TabIndex = 14
-        Me.Label6.Text = "Password"
+        Me.Label6.Text = "Password*"
         '
         'Label7
         '
@@ -217,9 +217,9 @@ Partial Class Register
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(338, 582)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(145, 19)
+        Me.Label7.Size = New System.Drawing.Size(152, 19)
         Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Confirm Password"
+        Me.Label7.Text = "Confirm Password*"
         '
         'PictureBox1
         '

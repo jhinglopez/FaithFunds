@@ -42,6 +42,11 @@ Public Class UserEdit
 
     Private Sub btnUpdate_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
         Try
+            If IsFieldsNotEmpty() = False Then
+                MsgBox("Save failed. Please fill out the required fields.", MsgBoxStyle.Exclamation)
+                Exit Sub
+            End If
+
             MyCon()
             Dim SqlUpdateWithPassChange As String = "UPDATE UserParishAcc SET [FullName]=@fname, [UADD]=@uadd, [Contc]=@contc,[URole]=@urole, [UserPassword]=@upass WHERE [UserName]=@uname"
             Dim SqlUpdateNoPassChange As String = "UPDATE UserParishAcc SET [FullName]=@fname,[UserPassword]=[UserPassword],[UADD]=@uadd, [Contc]=@contc,[URole]=@urole WHERE [UserName]=@uname"
@@ -116,7 +121,17 @@ Public Class UserEdit
     End Sub
 
  
-    Private Sub UserEdit_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Function IsFieldsNotEmpty() As Boolean
 
-    End Sub
+        If txtUsername.Text.Trim() = "" Or _
+            txtRole.Text.Trim() = "" Or _
+            txtFullname.Text.Trim() = "" Or _
+            txtConfirmPass.Text.Trim() = "" Then
+            Return False
+        Else
+            Return True
+        End If
+
+   End Function
+
 End Class
