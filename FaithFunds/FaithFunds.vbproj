@@ -215,6 +215,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\FaithFunds.exe.config" />
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
@@ -410,6 +411,8 @@
     <None Include="Resources\dropdown-outline1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\FaithFunds.exe" />
+    <Content Include="bin\Debug\FaithFunds.pdb" />
     <Content Include="BuenPator-Green-Colorway-icon.ico" />
     <Content Include="FaithFunds.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -435,6 +438,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
