@@ -56,12 +56,12 @@ Partial Class Data_Entry
         'Close_btn
         '
         Me.Close_btn.BackColor = System.Drawing.Color.Transparent
-        Me.Close_btn.Image = Global.WindowsApplication1.My.Resources.Resources.back_arrow31
-        Me.Close_btn.Location = New System.Drawing.Point(1451, 10)
+        Me.Close_btn.Image = Global.WindowsApplication1.My.Resources.Resources.remove
+        Me.Close_btn.Location = New System.Drawing.Point(1482, 18)
         Me.Close_btn.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Close_btn.Name = "Close_btn"
-        Me.Close_btn.Size = New System.Drawing.Size(50, 50)
-        Me.Close_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.Close_btn.Size = New System.Drawing.Size(32, 32)
+        Me.Close_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.Close_btn.TabIndex = 69
         Me.Close_btn.TabStop = false
         '

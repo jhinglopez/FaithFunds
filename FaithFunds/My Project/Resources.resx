@@ -154,6 +154,9 @@
   <data name="Panel (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Panel (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EDIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,9 +171,6 @@
   </data>
   <data name="Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ADD (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ADD (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nav-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nav-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,17 +196,14 @@
   <data name="CCS (5)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CCS (5)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BuenPator-Green-Colorway-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BuenPator-Green-Colorway-home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="CCS (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CCS (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close_btn-small1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_btn-small1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="buen-pastor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buen-pastor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ADD (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ADD (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back-arrow31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back-arrow31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,6 +235,9 @@
   <data name="request-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\request-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="buen-pastor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buen-pastor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="m1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\m1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -252,6 +252,9 @@
   </data>
   <data name="ADD (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ADD (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back-arrow35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-arrow35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back-arrow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back-arrow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -310,10 +313,10 @@
   <data name="Deleteopt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Deleteopt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EDIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EDIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BuenPator-Green-Colorway-home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BuenPator-Green-Colorway-home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="back-arrow35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back-arrow35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="remove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

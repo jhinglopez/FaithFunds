@@ -414,6 +414,7 @@
     <Content Include="FaithFunds.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\remove.png" />
     <None Include="Resources\back-arrow35.png" />
     <None Include="Resources\back-arrow34.png" />
     <None Include="Resources\back-arrow33.png" />
